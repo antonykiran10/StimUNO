@@ -29,7 +29,7 @@ num_of_dark_flashes = 60
 darkflash_duration = 1 # in seconds
 inter_stim_interval = 60 # in seconds
 
-arduino = serial.Serial(port='COM4', baudrate=115200, timeout=.1)
+arduino = serial.Serial(port='COM12', baudrate=115200, timeout=.1)
 p = 6.89
 
 
